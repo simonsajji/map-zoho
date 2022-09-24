@@ -15,34 +15,26 @@ export class StoreMapComponent implements AfterViewInit {
   @ViewChild('map', {static: false}) info: ElementRef | undefined;
    labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
    locations = [
-    { location: new google.maps.LatLng(51.213890, -102.462776) , stopover:false },
+    { location: new google.maps.LatLng(41.661129, -91.530167) , stopover:false },
     // { location: new google.maps.LatLng( 52.321945, -106.584167) , stopover:false }, //dest
-    { location: new google.maps.LatLng(50.288055, -107.793892) , stopover:false },
+    { location: new google.maps.LatLng(46.877186, -96.789803) , stopover:false },
 
-    { location: new google.maps.LatLng(52.757500, -108.286110) , stopover:false },
-    { location: new google.maps.LatLng(45.700001, -73.633331) , stopover:false },
-    { location: new google.maps.LatLng(45.630001, -73.519997) , stopover:false },
-    { location: new google.maps.LatLng(39.791000, -86.148003) , stopover:false },
-    { location: new google.maps.LatLng(43.838413, -79.086761) , stopover:false },
-    { location: new google.maps.LatLng(42.778828, -81.175369) , stopover:false },
-    { location: new google.maps.LatLng(40.367474, -82.996216) , stopover:false },
+    { location: new google.maps.LatLng(44.986656, -93.258133) , stopover:false },
+    { location: new google.maps.LatLng(44.500000, -89.500000) , stopover:false },
+    { location: new google.maps.LatLng(52.146973, -106.677034) , stopover:false },
     // { location: new google.maps.LatLng(40.000000, -89.000000) , stopover:false }, //orgin
     
    
   ];
 
   mkrs = [
-    { lat: 50.288055, lng: -107.793892 },
-    { lat: 51.213890, lng: -102.462776 },
-    // { lat: 52.321945, lng: -106.584167},
-    { lat: 52.757500, lng: -108.286110},
-    { lat:45.700001, lng: 	-73.633331 },
-    { lat: 45.630001, lng: -73.519997},
-    { lat: 39.791000, lng: 	 -86.148003},
-    { lat: 43.838413, lng: 	-79.086761},
-    { lat: 42.778828, lng: -81.175369},
-    { lat: 40.367474, lng: -82.996216},
-    // { lat: 40.000000, lng: -89.000000},
+    { lat: 41.661129, lng: -91.530167 },
+    { lat: 46.877186, lng: -96.789803},
+    { lat: 44.986656, lng: -93.258133},
+    { lat: 44.500000, lng: -89.500000},
+    { lat: 52.146973, lng: -106.677034},
+
+   
 
   ]
 
